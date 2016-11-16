@@ -1,6 +1,8 @@
-# Responsive Design Demo
+# [LIVE DEMO](https://eihcir0.github.io/Responsive_Design_Bilingual_Demo/index.html)
 
-This demo project consists of a static landing page which contains content from the **FOR BUSINESSES** / **TIL VIRKSOMHEDEN** tab only.  All other tabs including login and "submit email" features are *currently inactive, clicking them will result in a console.log message appearing in the DevTools*.
+# Responsive Design / Bilingual Demo
+
+This is a demonstration of responsive web design for a bilingual (Danish/English) site.  This demo project consists of a static landing page which contains content from the **FOR BUSINESSES** / **TIL VIRKSOMHEDEN** tab only.  All other tabs including login and "submit email" features are *currently inactive, clicking them will result in a console.log message appearing in the DevTools*.
 
 ## Tech Stack
 
