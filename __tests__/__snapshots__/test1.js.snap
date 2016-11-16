@@ -1,0 +1,49 @@
+exports[`test button switches language 1`] = `
+<section
+  className="nav-bar">
+  DK
+  <div
+    className="nav-bar-left-side">
+    <button
+      className="nav-bar-button"
+      onClick={undefined}>
+      TIL FORBRUGEREN
+    </button>
+    <button
+      className="nav-bar-button"
+      onClick={undefined}>
+      TIL VIRKSOMHEDEN
+    </button>
+    <button
+      className="nav-bar-button"
+      onClick={undefined}>
+      OM ROGER
+    </button>
+  </div>
+</section>
+`;
+
+exports[`test button switches language 2`] = `
+<section
+  className="nav-bar">
+  EN
+  <div
+    className="nav-bar-left-side">
+    <button
+      className="nav-bar-button"
+      onClick={undefined}>
+      FOR CONSUMERS
+    </button>
+    <button
+      className="nav-bar-button"
+      onClick={undefined}>
+      FOR business
+    </button>
+    <button
+      className="nav-bar-button"
+      onClick={undefined}>
+      ABOUT US
+    </button>
+  </div>
+</section>
+`;

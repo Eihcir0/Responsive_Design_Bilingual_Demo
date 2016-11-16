@@ -1,0 +1,517 @@
+
+@import url('normalize.css');
+
+@font-face {
+    font-family: DinPro;
+    src: url('./fonts/DinPro/din-pro-medium.otf');
+}
+
+@font-face {
+    font-family: DinPro;
+    src: url('./fonts/DinPro/din-pro-bold.otf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: DinPro;
+    src: url('./fonts/DinPro/din-pro-light.otf');
+    font-weight: lighter;
+}
+
+* {
+  position: relative;
+  box-sizing: border-box;
+}
+
+
+html {
+  font-size: 10px;
+}
+
+@media(min-width: 500px) {
+  html {
+    font-size: 11px;
+  }
+}
+
+@media(min-width: 700px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media(min-width: 900px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media(min-width: 1100px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+
+body {
+	outline: none;
+	font-family: 'DinPro', sans-serif;
+	/*line-height: 1;*/
+  color: black;
+  background-color: white;
+}
+
+button {
+  outline: none;
+}
+
+.icon {
+  position: absolute;
+  left: 49%;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+.login-button-img {
+    width: 48.4%;
+    padding-right: 0.6rem;
+}
+
+.business-section-2 {
+  background-color: #5e00e8
+}
+.login-button {
+    font-size: 0.7rem;
+    display: inline-block;
+    color: white;
+    background-color: #4f00c3;
+    border-radius: 2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 2rem 0.8rem 1.3rem;
+    border: none;
+}
+
+.nav-bar {
+  top: 0;
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  opacity: 1.0;
+  background-color: white;
+  border-bottom: solid lightgrey 1px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar-left {
+  margin-left: 2%;
+}
+
+.nav-bar-right {
+  margin-right: 3%;
+  align-items: center;
+  display: flex;
+}
+
+.img-flag {
+  height: 1%;
+  cursor: pointer;
+
+}
+
+.nav-bar-right {
+  display: flex;
+}
+.nav-bar-button {
+  width: 7.9rem;
+  cursor: pointer;
+  margin: 0.5rem;
+  display: block;
+  opacity: 0.4;
+  border: none;
+  font-weight: bolder;
+  font-size: 0.7rem;
+  background-color: white;
+}
+
+.nav-bar-button:hover {
+  font-weight: bolder;
+  opacity: 1;
+  border: none;
+  background-color: white;
+}
+
+.nav-bar-button.selected {
+  opacity: 1;
+  font-weight: bolder;
+  border-bottom: 1px solid #4f00c3;
+  /*text-decoration: underline;*/
+}
+.business-section-1-top-container {
+  max-width: 750px;
+  height: 18.5rem;
+  width: 66%;
+  margin: 4% auto;
+}
+
+
+@media(min-width: 500px) {
+  .nav-bar-button {
+    display: inline-block;
+
+  }
+  .business-section-1-top-container {
+    max-width: 750px;
+    height: 13rem;
+    width: 57%;
+    margin: 4% auto;
+  }
+
+}
+
+
+.lang-button {
+  cursor: pointer;
+  font-weight: bolder;
+  border: none;
+  background-color: white;
+  font-size: 0.7rem;
+}
+
+.purple-line-graph {
+  left: 0;
+  bottom: -1px;
+  position: absolute;
+  width: 100%;
+}
+/*Business page body content*/
+
+.business-section-1-top {
+  /*display: block;*/
+  padding: 14rem 0;
+  font-size: 1.7rem;
+  width: 100%;
+  text-align: center;
+  line-height: 1.8;
+  background-color: white;
+}
+
+
+.business-section-1-top-title {
+  text-align: center;
+  display: block;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+.business-section-1-top-text{
+  font-size: 1.7rem;
+  text-align: center;
+  display: block;
+}
+
+.business-section-2 {
+  padding: 11rem 0;
+}
+
+.business-section-2-counter {
+  margin: 0 0 1rem;
+  font-size: 4.3rem;
+  font-weight: bold;
+  color: white;
+}
+
+.business-section-2-middle-box {
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
+.business-section-2-middle-text {
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1.8;
+  max-width: 26rem;
+  margin: 0 auto;
+}
+
+.pie-chart-container {
+  font-size: 12px;
+  padding-bottom: 5rem;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pie-chart-img {
+  width: 20%;
+  display: block;
+  margin: 0 auto 2rem;
+  min-width: 100px;
+}
+
+.pie-chart-stat {
+  color: #fff;
+  font-size: 3rem;
+  margin: 1rem;
+}
+
+.pie-chart-text {
+  margin: 0 auto;
+  color: #fff;
+  line-height: 1.5;
+  max-width: 290px;
+}
+
+.button-section-4 {
+  display: block;
+}
+
+@media(min-width: 500px) {
+.business-section-2-bottom {
+  display: flex;
+ }
+ .pie-chart-container {
+   font-size: 14px;
+   width: 30%;
+ }
+}
+
+.business-section-4-top {
+  background-color: #3c0094
+
+}
+.business-section-4-super-title {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 6rem 0 3.5rem;
+  font-size: 0.9rem;
+  color: white;
+
+}
+
+.business-section-4-title {
+   color: white;
+   display: block;
+   color: white;
+   text-align: center;
+   font-size: 2.5rem;
+   max-width: 41rem;
+   margin: 0 auto 6rem;
+   font-weight: bold;
+   line-height: 1.6;
+
+}
+.business-section-4-text-container {
+  margin: 0 auto 3rem;
+  min-width: 200px;
+
+
+}
+.business-section-4-subtitle {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.business-section-4-text {
+    color: white;
+    display: block;
+    max-width: 23rem;
+    line-height: 2.5;
+    text-align: center;
+    font-size: 0.9rem;
+    letter-spacing: 0.3px;
+    margin: 0 auto;
+}
+
+  @media(min-width: 800px) {
+   .business-section-4-text-super-container {
+     display: flex;
+     flex-wrap: wrap;
+   }
+   .business-section-4-text-half-container {
+     display: flex;
+     width: 100%;
+     margin-bottom: 3.5rem;
+
+   }
+   .business-section-4-text-container {
+     display: inline-block;
+   }
+
+   .business-section-4-text {
+       display: inline-block;
+
+  }
+}
+
+.checkmark {
+    color: #7c507c;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.business-section-4-button {
+    display: block;
+    margin: 33px auto;
+    bottom: 5rem;
+    padding: 1.2rem 2rem;
+    border-radius: 63px;
+    border: none;
+}
+
+.business-section-4-bottom {
+    background-color: #5a0ee2;
+    display: block;
+    margin: -33px 0;
+    top: 0;
+    height: 22rem;
+}
+
+.business-section-4-final-salutation {
+    color: white;
+    display: block;
+    font-size: 3rem;
+    margin: 0 auto 1rem;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.email-request {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+}
+
+.enter-email-container {
+  display: block;
+  width: 17rem;
+  margin: 0 auto;
+}
+.enter-email {
+    display: inline-block;
+    text-align: left;
+    background: #3c0094;
+    /*left: 38%;*/
+    color: white;
+    padding: 1rem 11rem 1rem 1rem;
+    border-radius: 34px;
+    border: none;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+}
+
+.submit-email {
+    border: none;
+    border-radius: 20px;
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+
+}
+
+.footer-section {
+  height: 10rem;
+}
+.footer-top-bar, .footer-bottom-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 4rem;
+  margin-left: 6rem;
+  vertical-align: middle;
+  height: 3rem;
+}
+
+.footer-bottom-bar {
+  margin-top: 0.8rem;
+}
+
+.footer-top-bar {
+border-bottom: solid grey 1px;
+margin-top: 6.3rem;
+height: 2.2rem;
+}
+
+.footer-top-bar-left {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 0.8rem;
+  vertical-align: middle;
+}
+
+.footer-top-bar-right {
+  vertical-align: middle;
+  display: inline-block;
+  /*bottom: 1.2rem;*/
+}
+
+.footer-top-bar a, .footer-bottom-bar a {
+  font-weight: bold;
+  font-size: 0.7rem;
+  opacity: 0.3;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 1rem;
+  cursor: pointer;
+}
+
+.footer-bottom-bar a {
+  padding-top: 0.9rem;
+}
+
+/*.footer-top-bar a:last-of-type {
+  margin-bottom: 1rem;
+}*/
+
+.footer-bottom-bar-left {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 4.3rem;
+}
+
+.footer-bottom-bar-right {
+  display: flex;
+  margin-top: -0.7rem;
+}
+
+.footer-icon{
+  width: 1.7rem;
+  height: 1rem;
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+}
+
+.language-selector{
+  align-items: center;
+  display: flex;;
+  vertical-align: middle;
+  width: 2.3rem;
+  cursor: pointer;
+}
+
+.language-selector.top{
+  margin-right: 15%;
+  cursor: pointer;
+}
+
+
+.language-selector.bottom {
+  margin-left: 6.4rem;
+  bottom: 6.2rem;
+  border-right: solid lightgrey 1px;
+  width: 4rem;}
